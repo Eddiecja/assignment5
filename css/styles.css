@@ -1,0 +1,181 @@
+/* =====================
+
+Universal Styling
+
+=======================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: #1A1A1A;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+header h1 {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    padding: 15px 0px 15px 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: 20px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+nav a:hover {
+    padding: 0px 0px 3px 0px;
+    border-bottom: inset;
+    border-width: 1px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+/* =====================
+
+Contact Page Styling
+
+=======================*/
+
+.contact-section {
+    background: #1A1A1A;
+    color: white;
+    padding: 65px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    padding: 10px 0 25px;
+}
+
+.contact-pic, 
+.contact-text {
+    display: inline-block;
+}
+
+.contact-pic {
+    border-radius: 30px;
+    position: relative;
+    left: 150px;
+    filter: grayscale(100%);
+}
+
+.contact-text {
+    width: 45%;
+    vertical-align: top;
+    top: 100px;
+    left: 25px;
+    position: relative;
+}
+
+.contact-text p {
+    text-align: center;
+}
+
+.social-handles {
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 25px 0 0;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    transition: .3s;
+}
+
+.icon:hover {
+    font-size: 30px;
+    box-shadow: 0 0 40px white;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+.form-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h3 {
+    padding: 20px 0 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+.first-name, 
+.last-name {
+    display: inline-block;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border: solid 1px;
+}
+
+textarea {
+    border: solid 1px;
+    padding: 10px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+input[type="submit"]:hover {
+    background: white;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: .3s;
+}
