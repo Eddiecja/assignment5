@@ -179,3 +179,11 @@ input[type="submit"]:hover {
     border-radius: 20px;
     transition: .3s;
 }
+
+.telephone.input-section input {
+    width: 350px;
+}
+
+.email.input-section input {
+    width: 350px;
+}

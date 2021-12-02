@@ -47,7 +47,7 @@
 
             <div class="form-container">
                 <h3>Contact Me</h3>
-                <form class="contact-form" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)"></form>
+                <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
                     <div class="first-name input-section">
                         <label for="firstname" class="label_input_wrap"></label>
                         <input type="text" name="firstname" id="firstname" placeholder="First Name"/>
@@ -77,8 +77,9 @@
                         <input type="submit" value="Submit!">
         
                     </div>
-        
+                
                 </form>
+
             </div>
            
         </main>
