@@ -55,6 +55,13 @@ nav a:hover {
     border-radius: 5px;
     transition: .3s;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    top: 190px;
+}
 </style>
 
 <header>
